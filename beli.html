@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startStopwatch()">
+    <div>
+        <h1>Don't press the button.</h1>
+        <p>Just don't press it</p>
+
+        <p id="vastaus" class="gm"></p>
+        <p id="aika"></p>
+
+        <p></p>
+
+        <input type="button" id="nappi" value="Button" onclick="nappi(), stopStopwatch()">
+
+        <br>
+        <p id="youLasted">You have lasted</p>
+        <div class="kello" id="stopwatch">00:00:00</div>
+        <p>without pressing the button</p>
+        
+        <br>
+        
+        <p>By JLampi, Salamanteri & Kupla</p>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+</html>
